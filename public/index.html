@@ -10,11 +10,34 @@
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <link rel="stylesheet" type="text/css"
+    href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.1.0.css" />
+
+  <link rel="stylesheet" type="text/css"
+    href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-light-1.1.0.css" />
+
+  <script type="text/javascript"
+    src="https://www.ebi.ac.uk/pdbe/pdb-component-library/js/pdbe-molstar-plugin-1.1.0.js"></script>
+
   <title>Brol Research</title>
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="myViewer"></div>
+  <script>
+    var viewerInstance = new PDBeMolstarPlugin();
+
+    var options = {
+      moleculeId: '2nnu',
+      hideControls: true
+    }
+
+    var viewerContainer = document.getElementById('myViewer');
+
+    viewerInstance.render(viewerContainer, options);
+  </script>
   <div id="root"></div>
 </body>
 

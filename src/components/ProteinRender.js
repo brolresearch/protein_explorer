@@ -6,8 +6,11 @@ export default class ProteinRender extends Component {
     }
     render() {
         return (
+
             <div>
-                Protein Render Component
+                <h2>Protein Render Comp</h2>
+
+
             </div>
         )
     }
