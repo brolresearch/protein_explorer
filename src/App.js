@@ -1,19 +1,21 @@
 import React from 'react';
-import Header from './components/layout/Header';
-import ProteinRender from './components/ProteinRender';
-import './App.css';
 import { Component } from 'react';
+
+import Header from './components/Header';
+import ProteinRender from './components/ProteinRender';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import './colorPalette.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App color-primary-4" >
 
         <div className="container">
-          <React.Fragment>
-            <Header />
-            <ProteinRender />
-          </React.Fragment>
+          <Header />
+          <ProteinRender />
         </div>
       </div>
     );
