@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export default class ProteinRender extends Component {
     state = {
@@ -9,7 +9,6 @@ export default class ProteinRender extends Component {
 
             <div>
                 <h2>Protein Render Comp</h2>
-
 
             </div>
         )

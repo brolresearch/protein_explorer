@@ -4,7 +4,7 @@ import '../colorPalette.css';
 
 export default function Header() {
     return (
-        <Navbar className="bg-secondary-1-3" variant="dark" fixed="top">
+        <Navbar className="bg-secondary-1-3" variant="dark" position="sticky">
             <Navbar.Brand href="#home" expand="md">
                 <img
                     alt=""
@@ -18,8 +18,8 @@ export default function Header() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" expand="md">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#link">Link</Nav.Link>
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/proteins">Proteins</Nav.Link>
                     <NavDropdown title="Dropdown" menuid="basic-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
