@@ -134,3 +134,136 @@
   color: rgba(123, 7, 12, 1);
 }
 
+/* BACKGROUND COLORS */
+
+.bg-primary-0 {
+  background-color: #5d8e58;
+} /* Main Primary background-color */
+.bg-primary-1 {
+  background-color: #b1ceae;
+}
+.bg-primary-2 {
+  background-color: #7cb177;
+}
+.bg-primary-3 {
+  background-color: #3d6f38;
+}
+.bg-primary-4 {
+  background-color: #1c4717;
+}
+
+.bg-secondary-1-0 {
+  background-color: #4c5974;
+} /* Main Secondary background-color (1) */
+.bg-secondary-1-1 {
+  background-color: #a1b6df;
+}
+.bg-secondary-1-2 {
+  background-color: #7787a7;
+}
+.bg-secondary-1-3 {
+  background-color: #2f4165;
+}
+.bg-secondary-1-4 {
+  background-color: #16243f;
+}
+
+.bg-secondary-2-0 {
+  background-color: #e8e7aa;
+} /* Main Secondary background-color (2) */
+.bg-secondary-2-1 {
+  background-color: #fffea9;
+}
+.bg-secondary-2-2 {
+  background-color: #fffeb9;
+}
+.bg-secondary-2-3 {
+  background-color: #999961;
+}
+.bg-secondary-2-4 {
+  background-color: #616039;
+}
+
+.bg-complement-0 {
+  background-color: #c54249;
+} /* Main Complement background-color */
+.bg-complement-1 {
+  background-color: #fdbabd;
+}
+.bg-complement-2 {
+  background-color: #ea7177;
+}
+.bg-complement-3 {
+  background-color: #a5242a;
+}
+.bg-complement-4 {
+  background-color: #7b070c;
+}
+
+/* As RGBa codes */
+
+.bg-rgba-primary-0 {
+  background-color: rgba(93, 142, 88, 1);
+} /* Main Primary background-color */
+.bg-rgba-primary-1 {
+  background-color: rgba(177, 206, 174, 1);
+}
+.bg-rgba-primary-2 {
+  background-color: rgba(124, 177, 119, 1);
+}
+.bg-rgba-primary-3 {
+  background-color: rgba(61, 111, 56, 1);
+}
+.bg-rgba-primary-4 {
+  background-color: rgba(28, 71, 23, 1);
+}
+
+.bg-rgba-secondary-1-0 {
+  background-color: rgba(76, 89, 116, 1);
+} /* Main Secondary background-color (1) */
+.bg-rgba-secondary-1-1 {
+  background-color: rgba(161, 182, 223, 1);
+}
+.bg-rgba-secondary-1-2 {
+  background-color: rgba(119, 135, 167, 1);
+}
+.bg-rgba-secondary-1-3 {
+  background-color: rgba(47, 65, 101, 1);
+}
+.bg-rgba-secondary-1-4 {
+  background-color: rgba(22, 36, 63, 1);
+}
+
+.bg-rgba-secondary-2-0 {
+  background-color: rgba(232, 231, 170, 1);
+} /* Main Secondary background-color (2) */
+.bg-rgba-secondary-2-1 {
+  background-color: rgba(255, 254, 169, 1);
+}
+.bg-rgba-secondary-2-2 {
+  background-color: rgba(255, 254, 185, 1);
+}
+.bg-rgba-secondary-2-3 {
+  background-color: rgba(153, 153, 97, 1);
+}
+.bg-rgba-secondary-2-4 {
+  background-color: rgba(97, 96, 57, 1);
+}
+
+.bg-rgba-complement-0 {
+  background-color: rgba(197, 66, 73, 1);
+} /* Main Complement background-color */
+.bg-rgba-complement-1 {
+  background-color: rgba(253, 186, 189, 1);
+}
+.bg-rgba-complement-2 {
+  background-color: rgba(234, 113, 119, 1);
+}
+.bg-rgba-complement-3 {
+  background-color: rgba(165, 36, 42, 1);
+}
+.bg-rgba-complement-4 {
+  background-color: rgba(123, 7, 12, 1);
+}
+
+
