@@ -1,6 +1,6 @@
-# Brol Research Project
+# Brol Research
 
-A colaboration project to build a platform and tools for researchers to explore protein folding.
+Platform and tools to explore protein folding.
 
 
 
