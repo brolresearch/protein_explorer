@@ -1,4 +1,15 @@
-## Brol Project
+# Brol Research
 
-For UI
-https://demos.creative-tim.com/material-kit-react/#/
+Platform and tools to explore protein folding.
+
+
+
+
+### Primary Contributors
+---
+
+[Jon Brouwer](https://github.com/jbrouw2)
+
+[Scott Olson](https://github.com/Scott-Olson)
+
+
